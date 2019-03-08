@@ -1,6 +1,7 @@
 ## Code Topics Fluency
 
-At this page you can find fluency of **code topics** required by the course CIT 261 from BYU Idaho.
+At this page you can find fluency of **code topics** required by the course CIT 261 from BYU Idaho. 
+By clicking on the desired code topic, you can view an online demo and more information about the topic.
 
 ### Code Topics
 
