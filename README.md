@@ -1,10 +1,6 @@
 ## Code Topics Fluency
 
-### Hello World!
-
 At this page you can find fluency of **code topics** required by the course CIT 261 from BYU Idaho.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Code Topics
 
