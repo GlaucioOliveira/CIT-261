@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## Code Topics Fluency
 
-You can use the [editor on GitHub](https://github.com/GlaucioOliveira/CIT-261/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Hello World!
+
+At this page you can find fluency of **code topics** required by the course CIT 261 from BYU Idaho.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Code Topics
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 1. JavaScript 
+> Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays.
 
-```markdown
-Syntax highlighted code block
+#### 2. JavaScript Objects
+> Object Creation Functions, Inheritance, Properties, Methods, Instantiation.
 
-# Header 1
-## Header 2
-### Header 3
+#### 3. JSON
+> Parse, Stringify.
 
-- Bulleted
-- List
+#### 4. AJAX
+> Requesting a JSON file.
 
-1. Numbered
-2. List
+#### 5. Local Storage
+> API, Storing and Retrieving Simple Data, Arrays, Associative Arrays, and Objects.
 
-**Bold** and _Italic_ and `Code` text
+#### 6. DOM
+> Manipulation Using createElement, appendChild, insertBefore, removeChild, etc.
 
-[Link](url) and ![Image](src)
-```
+#### 7. CSS Class Properties Using JavaScript
+> How to manipulate CSS Class Properties Using JavaScript.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### 8. CSS3 Transitions and Animations with JavaScript
+> Creating CSS3 Transitions and Animations in CSS and triggering them with JavaScript.
 
-### Jekyll Themes
+#### 9. JavaScript Events 
+> Standard JavaScript Events Including those for Mobile Devices and Animation and Transition Events.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GlaucioOliveira/CIT-261/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 10. HTML5 Tags
+> Video, Audio, and Canvas.
 
-### Support or Contact
+#### 11. CSS3 Transitions
+> Designing, Defining, and Triggering CSS3 Transitions without Custom Libraries.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### 12. CSS3 Transforms
+> Designing, Defining, and Triggering CSS3 Transforms without Custom Libraries.
+
+#### 13. CSS3 Animations
+> Designing, Defining, and Triggering CSS3 Animations without Custom Libraries.
+
