@@ -11,7 +11,7 @@ By clicking on the desired code topic, you can view an online demo and more info
 #### 2. JavaScript Objects
 > Object Creation Functions, Inheritance, Properties, Methods, Instantiation.
 
-#### 3. JSON
+#### 3. [JSON](topics/json/README.md)
 > Parse, Stringify.
 
 #### 4. AJAX
