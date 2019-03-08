@@ -1,3 +1,4 @@
-## JSON
+## Code Topic Fluency 
 
-> Parse, Stringify
+### JavaScript Events
+> Standard JavaScript Events Including those for Mobile Devices and Animation and Transition Events.

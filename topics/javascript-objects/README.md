@@ -1,3 +1,4 @@
-## JSON
+## Code Topic Fluency 
 
-> Parse, Stringify
+### JavaScript Objects
+> Object Creation Functions, Inheritance, Properties, Methods, Instantiation.

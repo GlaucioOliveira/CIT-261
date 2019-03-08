@@ -1,3 +1,4 @@
-## JSON
+## Code Topic Fluency 
 
-> Parse, Stringify
+### JavaScript
+> Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays.

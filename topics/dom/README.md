@@ -1,3 +1,4 @@
-## JSON
+## Code Topic Fluency 
 
-> Parse, Stringify
+### DOM
+> Manipulation Using createElement, appendChild, insertBefore, removeChild, etc.

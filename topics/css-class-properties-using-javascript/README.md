@@ -1,3 +1,4 @@
-## JSON
+## Code Topic Fluency 
 
-> Parse, Stringify
+### CSS Class Properties Using JavaScript
+> How to manipulate CSS Class Properties Using JavaScript.
