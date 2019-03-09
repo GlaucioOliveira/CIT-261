@@ -23,7 +23,6 @@ The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the varia
 
 
 ```html
-...
 <script>
   //example of an array of foods;
   var Foods = ["Apple","Banana","Coconut"];
@@ -42,7 +41,6 @@ In the example below there a function (doTheMath) that multiplies two values pas
 
 
 ```html
-...
 <script>
   function doTheMath(param1, param2){
     return param1 * param2; //with the *return* keyword we assign the result of this function to where it was executed.
@@ -52,13 +50,12 @@ In the example below there a function (doTheMath) that multiplies two values pas
 </script>
 ```
 
-#### Conditional Statements (if, else)
+#### Conditional Statements (If, Else)
 > With conditional statements we are able to execute specific blocks of codes, if a condition is reached. 
   in the function *doTheMath* below, before doing the Math operation it checks to see if the values passed in the parameters are valid numbers by calling the JavaScript function *isNaN*. If it's a valid number the *isNaN* returns false, otherwise returns true.
 The function *doTheMath* will only be executed if both parameters are valid numbers.
 
 ```html
-...
 <script>
   function doTheMath(param1, param2){
     if(isNaN(param1) == true) {
@@ -73,5 +70,22 @@ The function *doTheMath* will only be executed if both parameters are valid numb
   }
   
   var result = doTheMath(10, 5);
+</script>
+```
+
+
+#### Loops (For, While)
+> Loops are ways to excute a block of code as long as a condition is true. 
+
+```html
+<script>
+  for(int i = 0; i <= 10; i++){
+      //do something until i == 10
+    }
+                        
+var counter = 5;                   
+  while (counter > 0){
+   counter = counter - 1;
+  }
 </script>
 ```
