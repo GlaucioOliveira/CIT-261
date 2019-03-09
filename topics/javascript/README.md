@@ -23,10 +23,9 @@ The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the varia
 
 
 ```html
-
 ...
 <script>
-  //example of a array of foods;
+  //example of an array of foods;
   var Foods = ["Apple","Banana","Coconut"];
   alert(Foods[0]); //a message will be displayed with the value of the first fruit on the Array Foods.
 </script>
@@ -34,3 +33,21 @@ The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the varia
 
 #### Associative Arrays
 > In the example above, when we are accessing the first item (fruit) on the Array 'Foods', with the [0] index, we are acessing something called *associative array*. We can only access arrays by their position in the Array. This is a zero based array, so the first item is in the position 0. and the last one is 2. (0 = Apple, 1 = Banana, 2 = Coconut). 
+
+
+#### Functions and Parameters
+> A function is a block of code (inside a { } brackets) that execute a particular task. It needs to be inside a function declaration (or header) that it is composed by the *function* keyword, next to the name of the function and the ( ) parentheses. To pass parameters, we only need to name then inside the ( ) parentheses with their names. 
+
+In the example below there a function (doTheMath) that multiplies two values passed to it through the parameters (param1 and param2). Those parameters are acessible only inside the scope of a function.
+
+
+```html
+...
+<script>
+  function doTheMath(param1, param2){
+    return param1 * param 2; //with the *return* keyword we assign the result of this function to where it was executed.
+  }
+  
+  var result = doTheMath(10,5); //calls the function declared above passing the values 10 and 5 as parameters.
+</script>
+```
