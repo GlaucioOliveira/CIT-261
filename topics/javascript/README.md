@@ -38,16 +38,40 @@ The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the varia
 #### Functions and Parameters
 > A function is a block of code (inside a { } brackets) that execute a particular task. It needs to be inside a function declaration (or header) that it is composed by the *function* keyword, next to the name of the function and the ( ) parentheses. To pass parameters, we only need to name then inside the ( ) parentheses with their names. 
 
-In the example below there a function (doTheMath) that multiplies two values passed to it through the parameters (param1 and param2). Those parameters are acessible only inside the scope of a function.
+In the example below there a function (doTheMath) that multiplies two values passed to it through the parameters (param1 and param2). Those parameters are acessible only inside the scope of the function.
 
 
 ```html
 ...
 <script>
   function doTheMath(param1, param2){
-    return param1 * param 2; //with the *return* keyword we assign the result of this function to where it was executed.
+    return param1 * param2; //with the *return* keyword we assign the result of this function to where it was executed.
   }
   
-  var result = doTheMath(10,5); //calls the function declared above passing the values 10 and 5 as parameters.
+  var result = doTheMath(10, 5); //calls the function declared above passing the values 10 and 5 as parameters.
+</script>
+```
+
+#### Conditional Statements (if, else)
+> With conditional statements we are able to execute specific blocks of codes, if a condition is reached. 
+  in the function *doTheMath* below, before doing the Math operation it checks to see if the values passed in the parameters are valid numbers by calling the JavaScript function *isNaN*. If it's a valid number the *isNaN* returns false, otherwise returns true.
+The function *doTheMath* will only be executed if both parameters are valid numbers.
+
+```html
+...
+<script>
+  function doTheMath(param1, param2){
+    if(isNaN(param1) == true) {
+      return -1; 
+    }
+    else if (isNaN(param2) == true) {
+      return -1;
+    }
+  
+    //If param1 and param2 are valid numbers, then do the Math!
+    return param1 * param2;
+  }
+  
+  var result = doTheMath(10, 5);
 </script>
 ```
