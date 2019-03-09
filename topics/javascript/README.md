@@ -3,7 +3,7 @@
 ### JavaScript
 > Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays.
 
-Note: All the examples below to be executed needs to be inside a HTML page structure and inside the script tag (<script>).
+Note: All the examples below to be executed needs to be inside a HTML page structure and inside the script tag (`<script>`).
 
 #### Variables
 > Variables are containers where data can be stored. In the code below, the 'teacherName' is a variable. JavaScript recognizes this 'teacherName' as a variable because of the special keyword *var* before the 'teacherName'. 
