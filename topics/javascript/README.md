@@ -16,7 +16,7 @@ The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the varia
   alert(teacherName); //a message will be displayed with the value of the teacherName variable
 </script>
 ```
-
+<a href="https://codepen.io/glaucioso/pen/EMXyZo" target="_blank">Live Demo (at CodePen)</a>
 
 #### Arrays
 > To store more then one information in a single variable we can make use of arrays. Arrays works just like variables in JavaScript. The difference is that we need to specify multiple values to it, we do it using the [ ] characters.
