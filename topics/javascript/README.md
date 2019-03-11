@@ -74,6 +74,7 @@ The function *doTheMath* will only be executed if both parameters are valid numb
   }
   
   var result = doTheMath(10, 5);
+  document.write(result);
 </script>
 ```
 <a href="https://codepen.io/glaucioso/pen/vPZKWM" target="_blank">Live Demo (at CodePen)</a>
@@ -84,13 +85,15 @@ Loops are ways to excute a block of code as long as a condition is true.
 
 ```html
 <script>
-  for(int i = 0; i <= 10; i++){
-      //do something until i == 10
+  for(var i = 0; i <= 5; i++){
+      //do something until i == 5
+     document.write("(for loop) => i = " + i + "<br/>");
     }
                         
-var counter = 5;                   
-  while (counter > 0){
+var counter = 4;                   
+  while (counter > 0){ //loop until counter is higher then 0.
    counter = counter - 1;
+    document.write("(while loop) => counter = " + counter + "<br/>");
   }
 </script>
 ```
