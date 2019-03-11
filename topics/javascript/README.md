@@ -13,7 +13,7 @@ The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the varia
 <script>
   //example of a variable
   var teacherName = "Gláucio Oliveira";
-  alert(teacherName); //a message will be displayed with the value of the teacherName variable
+  document.write(teacherName); //display the value of the teacherName variable.
 </script>
 ```
 <a href="https://codepen.io/glaucioso/pen/EMXyZo" target="_blank">Live Demo (at CodePen)</a>
@@ -26,7 +26,7 @@ To store more then one information in a single variable we can make use of array
 <script>
   //example of an array of foods;
   var Foods = ["Apple","Banana","Coconut"];
-  alert(Foods[0]); //a message will be displayed with the value of the first fruit on the Array Foods.
+  document.write(Foods[0]); //Display the value of the first fruit on the Array Foods.
 </script>
 ```
 
@@ -48,6 +48,8 @@ In the example below there a function (doTheMath) that multiplies two values pas
   }
   
   var result = doTheMath(10, 5); //calls the function declared above passing the values 10 and 5 as parameters.
+  
+  document.write(result); //display the result
 </script>
 ```
 <a href="https://codepen.io/glaucioso/pen/JzJKrB" target="_blank">Live Demo (at CodePen)</a>
@@ -92,3 +94,4 @@ var counter = 5;
   }
 </script>
 ```
+<a href="https://codepen.io/glaucioso/pen/rRGWjb" target="_blank">Live Demo (at CodePen)</a>
