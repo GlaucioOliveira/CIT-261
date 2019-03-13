@@ -29,5 +29,6 @@ In the example below there is the definition of a class named 'Rectangle' with p
   var rec1 = new Rectangle(100, 200);
  rec1.displaySize();
 </script>
-´´´
+```
+
 <a href="https://codepen.io/glaucioso/pen/OqOvYd" target="_blank">Live Demo (at CodePen)</a>
