@@ -72,7 +72,7 @@ Local Storage is much more efficient and allows more information to be stored (t
 
 <div>
   <h3>Storing Object</h3>
-  <input type="text" id="txtObject" disabled placeholder="User Name" />
+  <input type="text" id="txtObject" disabled placeholder="Object Content" />
   <button onclick="saveObject()">Save Object</button>
   <button onclick="loadObject()">Load Object</button>
 </div>
