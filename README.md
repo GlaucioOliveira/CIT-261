@@ -9,7 +9,7 @@ By clicking on the desired code topic, you can view an online demo and more info
 > Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays.
 
 #### 2. [JavaScript Objects](topics/javascript-objects/README.md)
-> Object Creation Functions, Inheritance, Properties, Methods, Instantiation.
+> Object Creation, Functions, Inheritance, Properties, Methods, Instantiation.
 
 #### 3. [JSON](topics/json/README.md)
 > Parse, Stringify.
