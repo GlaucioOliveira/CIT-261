@@ -7,8 +7,8 @@ To represent things of the real world (like a car, a house, a food, etc...) into
 
 JavaScript is not an Object Oriented Language, but <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes" target="_blank">recently it added a keyword named **class**</a> ([TypeScript](https://en.wikipedia.org/wiki/TypeScript) is what leads JavaScript more close to an OOP with a [transpilation process](https://en.wikipedia.org/wiki/Source-to-source_compiler)). JavaScript is prototype-based (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain" target="_blank">definition here</a>).
 
-In the example below there is the definition of a class named 'Rectangle' with properties (width, height), a constructor (a type of function that is executed on the creation of the object) and two functions (calcArea and displaySize). 
-The variable rec1 creates an instance of this class (so rec1 becames a Rectangle object) and all the bahavior from the class are now accessible at this variable..
+In the example below there is the definition of a class named `Rectangle` with properties (width, height), a constructor (a type of function that is executed on the creation of the object) and two functions (calcArea and displaySize). 
+The variable `rec1` creates an instance of this class (so rec1 becames a Rectangle object) and all the bahavior from the class are now accessible at this variable..
 
 ```html
 <script>
