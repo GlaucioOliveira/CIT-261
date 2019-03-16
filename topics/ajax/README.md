@@ -3,7 +3,7 @@
 ### AJAX
 > Requesting a JSON file.
 
-AJAX stands for **A**synchronous **J**avaScript **A**nd **X**ML. It's a technology that makes use of the XMLHttpRequest object to get/post HTTP responses.
+AJAX stands for **A**synchronous **J**avaScript **A**nd **X**ML. It's a technology that makes use of the XMLHttpRequest object to get/post HTTP responses inside a HTML page.
 
 To make use of the XMLHttpRequest object, we need to create an instance of it, them define a callback function to the event listener **onreadystatechange** of this object. The block of code that we define at this event listener will be executed when something change after we try to make a connection (wih the **open** method).
 
@@ -29,3 +29,5 @@ function testingAJAX() {
 </script>
 ````
 <a href="https://codepen.io/glaucioso/pen/wOPmGX" target="_blank">Live Demo (at CodePen)</a>
+
+**NOTE:** the '200 OK status' for HTTP response if defined at the HTTP/1.1 protocol. ([Source](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html))
