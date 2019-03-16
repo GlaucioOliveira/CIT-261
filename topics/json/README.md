@@ -3,10 +3,18 @@
 ### JSON
 > Parse, Stringify
 
-JSON stands for **J**ava**S**cript **O**bject **N**otation.
+JSON stands for **J**ava**S**cript **O**bject **N**otation. According to it's creators definition, it is a lightweight data-interchange format. It's the best choice now a days to exchange data between different applications. 
+
+Example of a JSON file with an Object having two properties (`name` and `surname`):
+````json
+{
+  "name": "Gláucio", 
+  "surname": "Oliveira"
+}
+````
 
 #### Parse
-With this function from the JSON object we are able to convert JSON strings into JavaScript Objects. At the example below, the variable jsonString is passed as an argument for the JSON.parse method. The result of this method is an Object.
+With the `JSON.parse` function, it's possible convert JSON strings into JavaScript Objects. At the example below, the variable `jsonString` is passed as an argument. The result of this method is an Object with the properties `name`, `profession` and `age`.
 
 ```html
 <script>
@@ -20,7 +28,7 @@ With this function from the JSON object we are able to convert JSON strings into
 
 
 #### Stringify
-With Stringify we are able to cast JavaScript Objects to Json string. So basically it's the inverse process of the Parse function. We pass an object as a argument, and the return is a string.
+With the `JSON.stringify` function, it's possible to cast JavaScript Objects into a JSON String. Basically it's the inverse process of the Parse function described above. We pass an object as an argument to this function, and the return of this function is a string in the JSON format.
 
 ```html
 <script>  
