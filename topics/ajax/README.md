@@ -5,11 +5,11 @@
 
 AJAX stands for **A**synchronous **J**avaScript **A**nd **X**ML. It's a technology that makes use of the XMLHttpRequest object to get/post HTTP responses.
 
-To make use of the XMLHttpRequest object, we need to create an instance of it, then define a callback function to the event listener **onreadystatechange** of this object. The block of code that we define at this event listener will be executed when something change after we try to make a connection (wih the **open** method).
+To make use of the XMLHttpRequest object, we need to create an instance of it, them define a callback function to the event listener **onreadystatechange** of this object. The block of code that we define at this event listener will be executed when something change after we try to make a connection (wih the **open** method).
 
-In the example below we are making a call to a URL with the 'GET' verbose and making it an asynchronous call with the value 'true' especified on the third position of the **open** method.
+In the example below we are making a call to an URL with the 'GET' verbose and making it an asynchronous call (the third parameter on the **open** method defines it asynchronous). The returning content of this call is in JSON format.
 
-```html
+````html
 <script>
 function testingAJAX() {
   var xhttp = new XMLHttpRequest();
@@ -27,5 +27,5 @@ function testingAJAX() {
   
   testingAJAX();
 </script>
-```
+````
 <a href="https://codepen.io/glaucioso/pen/wOPmGX" target="_blank">Live Demo (at CodePen)</a>
