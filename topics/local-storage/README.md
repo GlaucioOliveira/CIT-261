@@ -7,7 +7,7 @@ With the `localStorage` object from JavaScript, we are able to create informatio
 
 Local Storage is more efficient and allows more information to be stored. The limitation of size depends on the browser used (<a href="https://developer.chrome.com/apps/offline_storage" target="_blank">For Chrome the default limit it's 5 MBs</a>). Below there is an example of working with Local Storage to store Simple data, arrays, and objects.
 
-**NOTE**: To save Objects on Local Storage, we need to [cast the JavaScript object into a JSON string](../json/README.md) (with the JSON.stringify function) and them save the result (the string). To restore the information as an object, we need to use the JSON parse function to turn the string back into an Object. This is also demonstrated on the code below.
+**NOTE**: To save Objects on Local Storage, we need to [cast the JavaScript object into a JSON string](../json/README.md#Stringify) (with the JSON.stringify function) and them save the result (the string). To restore the information as an object, we need to use the [JSON parse function to turn the string back into an Object](../json/README.md#Parse). This is also demonstrated on the code below.
 
 ````html
 <script>  
