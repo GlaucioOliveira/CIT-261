@@ -3,7 +3,7 @@
 ### JavaScript Objects
 > Object Creation, Functions, Inheritance, Properties, Methods, Instantiation.
 
-To represent things of the real world (like a car, a house, a food, etc...) into a programming language that is Object Oriented (POO) we can create classes that got properties and methods related to those real world objects. By definition, an object is an instance of this class.
+To represent things of the real world (like a car, a house, a food, etc...) into a programming language that is [Object Oriented (OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming) we can create classes that got properties and methods related to those real world objects. By definition, an object is an instance of this class.
 
 JavaScript is not an Object Oriented Language, but <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes" target="_blank">recently it added a keyword named **class**</a> (TypeScript is what leads JavaScript more close to a POO with a transpilation process). JavaScript is prototype-based (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain" target="_blank">definition here</a>).
 
