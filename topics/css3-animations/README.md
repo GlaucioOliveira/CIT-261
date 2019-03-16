@@ -40,15 +40,17 @@ Below there is an example showing the above animation in action along with the *
   height:40px; 
   padding: 15px;
   font-family: Helvetica;
+  }
 </style>
+
 <body>
   <h1 class="notice">Breaking News</h1>
   <div id="content">
     <h2>CSS3 is amazing. We can create nice effects with it.</h2>
   </div>
 </body>
-}
 ````
+
 <a href="https://codepen.io/glaucioso/pen/XGqeeR" target="_blank">Live Demo (At CodePen)</a>
 
 **NOTE**: 
