@@ -16,7 +16,7 @@ With CSS Animations we are able to create animations with HTML elements without 
 
 In the example above there is the animation named `breaking-news-animation`. For a HTML Element have this animation, it's necessary to specify the property **animation-name** on the CSS Selector of the element, and also we need to specify the time that this animation will take with the **animation-duration** property. We can also delay the animation with the usage of the **animation-delay** property.
 
-Below there is an example showing the above animation in action:
+Below there is an example showing the above animation in action along with the **floating-left-animation** animation:
 
 ````html
 <style>
@@ -51,4 +51,8 @@ Below there is an example showing the above animation in action:
 ````
 <a href="https://codepen.io/glaucioso/pen/XGqeeR" target="_blank">Live Demo (At CodePen)</a>
 
-**NOTE**: To allow the animation to be executed more then one time we can use the **animation-iteration-count** property. To allow the effect occurr without end just pass the `infinite` value to this property.
+**NOTE**: 
+- To allow the animation to be executed more then one time we can use the **animation-iteration-count** property. To allow the effect occurr without end just pass the `infinite` value to this property.
+
+- We can specify multiple animations and properties into HTML elements. We can to do it by putting a comma into next to the animation values specified.
+
