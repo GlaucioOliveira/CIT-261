@@ -6,8 +6,8 @@
 Note: All the examples below to be executed needs to be inside a HTML page structure and inside the script tag (`<script>`).
 
 #### Variables
-Variables are containers where data can be stored. In the code below, the 'teacherName' is a variable. JavaScript recognizes this 'teacherName' as a variable because of the special keyword *var* before the 'teacherName'. 
-The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the variable.
+Variables are containers where data can be stored. In the code below, the 'teacherName' is a variable. JavaScript recognizes this `teacherName` container as a variable because of the special keyword *var* before the `teacherName`. 
+The equal sign (=) is used to assign the value 'Gláucio Oliveira' to the variable.
 
 ```html
 <script>
@@ -19,12 +19,12 @@ The equal sign (=) is used to assign the value 'Gláucio Oliveira', to the varia
 <a href="https://codepen.io/glaucioso/pen/EMXyZo" target="_blank">Live Demo (at CodePen)</a>
 
 #### Arrays
-To store more then one information in a single variable we can make use of arrays. Arrays works just like variables in JavaScript. The difference is that we need to specify multiple values to it, we do it using the [ ] characters.
+To store more then one information in a single variable we can make use of arrays. Arrays works just like variables in JavaScript. The difference is that we need to specify multiple values to it, we do it using the [ ] square brackets.
 
 
 ```html
 <script>
-  //example of an array of foods;
+  //example of an array containg a list of foods;
   var Foods = ["Apple","Banana","Coconut"];
   document.write(Foods[0]); //Display the value of the first fruit on the Array Foods.
 </script>
@@ -36,20 +36,20 @@ In the example above, when we are accessing the first item (fruit) on the Array 
 <a href="https://codepen.io/glaucioso/pen/mowEMY" target="_blank">Live Demo (at CodePen)</a>
 
 #### Functions and Parameters
-A function is a block of code (inside a { } brackets) that execute a particular task. It needs to be inside a function declaration (or header) that it is composed by the *function* keyword, next to the name of the function and the ( ) parentheses. To pass parameters, we only need to name then inside the ( ) parentheses with their names. 
+A function is a block of code (inside a { } curly braces) that execute a particular task. It needs to be inside a function declaration (or header) that it's composed by the *function* keyword, next to the name of the function and the ( ) parentheses. To pass parameters, we only need to name them inside the ( ) parentheses, separated by a comma when there is more then one. 
 
-In the example below there a function (doTheMath) that multiplies two values passed to it through the parameters (param1 and param2). Those parameters are acessible only inside the scope of the function.
+In the example below there a function (doTheMath) that multiplies two values passed to it through the parameters (param1 and param2). Those parameters are acessible only inside the scope of the function (outside the doTheMath function those values are to accessible).
 
 
 ```html
 <script>
   function doTheMath(param1, param2){
-    return param1 * param2; //with the *return* keyword we assign the result of this function to where it was executed.
+    return param1 * param2;
   }
   
   var result = doTheMath(10, 5); //calls the function declared above passing the values 10 and 5 as parameters.
   
-  document.write(result); //display the result
+  document.write(result); //display the result.
 </script>
 ```
 <a href="https://codepen.io/glaucioso/pen/JzJKrB" target="_blank">Live Demo (at CodePen)</a>
