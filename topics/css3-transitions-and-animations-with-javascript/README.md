@@ -48,4 +48,6 @@ loadingAnimation2.addEventListener('animationend', () => {
 </script>
 ````
 
+It's also possible to add or remove css classes that have transition and transformation effects and trigger them by events or functions. 
+
 <a href="https://codepen.io/glaucioso/pen/eXxBWV" target="_blank">Live Demo (At CodePen)</a>
