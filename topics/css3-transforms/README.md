@@ -3,9 +3,9 @@
 ### CSS3 Transforms
 > Designing, Defining, and Triggering CSS3 Transforms without Custom Libraries.
 
-With the CSS Transform we are able to apply effects to elements that enalbe us to to rotate, scale, translate and skew them. 
+With the CSS Transform we are able to apply effects to elements that enalbe us to rotate, scale, translate and skew them. 
 
-In the code below there is the continuation of the example unsed on the Transition Topic, but now adding Transform effects.
+In the code below there is the continuation of the example used on the [Transition Topic](../css3-transitions/README.md), but now adding Transform effects.
 On the example below there is an animation to rotate the #demo div when the :hover event is triggered (with the mouse hover the #demo div). We are also able to include Transform effects on the **transition-property** as demonstrated on this example.
 
 ````html
