@@ -73,8 +73,27 @@ To add an Audio to a HTML page what we need is to add the `<audio>` tag. It's fu
 
 
 #### Canvas
+
+With Canvas we are able to draw graphics on a HTML page using JavaScript. We can draw shapes, texts, lines, gradient effects in two dimensions (2D) or three dimensions (3D).
+
+The first step to use this tag is to create the `<canvas>` tag, specify it's size (`width`, `height` attributes), and them use JavaScript to draw.
+
+In the exemple below there is the drawning of two crossed lines:
+
 ````html
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+<canvas id="canvas" width="200" height="100">
 </canvas>
+
+<script>
+ var canvas = document.getElementById("canvas");
+ var drawingContext = canvas.getContext("2d");
+ drawingContext.moveTo(0, 0);
+ drawingContext.lineTo(200, 100);
+ drawingContext.stroke(); 
+
+ drawingContext.moveTo(200,0);
+ drawingContext.lineTo(0, 100);
+ drawingContext.stroke();
+</script>
 ````
-<a href="https://codepen.io/glaucioso/pen/oVodGP" target="_blank">Live Demo (at CodePen)</a>
+<a href="https://codepen.io/glaucioso/pen/OqdRmd" target="_blank">Live Demo (at CodePen)</a>
