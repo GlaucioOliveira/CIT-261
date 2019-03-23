@@ -38,3 +38,8 @@ Another possibility to respond to an event is with the DOM. We can create an Eve
 <a href="https://codepen.io/glaucioso/pen/EMrgrb" target="_blank">Live Demo (At CodePen)</a>
 
 *NOTE:* A list with [all possible event types for any HTML Element](https://developer.mozilla.org/en-US/docs/Web/Events)
+
+
+#### Mobile Events
+
+With Mobile Devices we have events specific for the Touch screen (`touchstart`, `touchend`, `touchmove` and `touchcancel`), since there is no mouse avaliable. It's important deal with those events to understand the interaction the user wants from the elements. 
