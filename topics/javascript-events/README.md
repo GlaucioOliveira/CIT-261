@@ -22,7 +22,7 @@ On the Example above, when the user click the button, it will be displayed the m
 <button onclick="displayMessage()">Inline Event Call to a function</button>
 ````
 
-With the DOM we can also create an Event Listener to the HTML Element:
+Another possibility to respond to an event is with the DOM. We can create an Event Listener (`addEventListener`) to the HTML Element and specify the event type (in the example the `'click'`):
 
 ````html
 <script>
@@ -30,10 +30,11 @@ With the DOM we can also create an Event Listener to the HTML Element:
     alert('Hello World!');
   }
   
-  document.getElementById('button1').addEventLister('click', displayMessage);
+  document.getElementById('button1').addEventListener('click', displayMessage);
   
 </script>
 <button id="button1" onclick="displayMessage()">Inline Event Call to a function</button>
 ````
-
 <a href="https://codepen.io/glaucioso/pen/EMrgrb" target="_blank">Live Demo (At CodePen)</a>
+
+*NOTE:* A list with [all possible events for any HTML Element](https://developer.mozilla.org/en-US/docs/Web/Events)
