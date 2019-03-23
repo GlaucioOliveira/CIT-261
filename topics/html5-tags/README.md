@@ -27,7 +27,7 @@ Below there is an example of a video with two possible sources (.mp4 or .webm) a
  <video autoplay width="320" height="180" controls id="player">
   <source src="http://goliveira.com/byui/resources/jack-johnson-in-the-morning.mp4" type="video/mp4">
   <source src="http://goliveira.com/byui/resources/jack-johnson-in-the-morning.webm" type="video/webm">
-  Oops, no suport for .mp4 or .webm videos. Try another browser :|
+  Oops, no suport for .mp4 or .webm videos. Try another browser :(
 </video> 
 
 <div>
@@ -43,14 +43,33 @@ We can access properties (like current position, buffered data) and fire events 
 
 
 #### Audio
+
+To add an Audio to a HTML page what we need is to add the `<audio>` tag. It's funcionality is similar to the video tag. We can access properties and events associated with an Audio (current position, play, pause, seek position, etc) on the structure of the DOM Element of the Audio Object. Below there is an example for this Tag:
+
 ````html
-<audio controls>
-  <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
-  <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
-  Oops, no suport for ogg or mp3 :|
+<script>
+ var audioPlayer = document.getElementById('player');
+
+ function pauseVideo(){
+   audioPlayer.pause();
+ }
+
+ function playVideo(){
+   audioPlayer.play();
+ }
+</script>
+
+<audio controls id="player">
+  <source src="http://goliveira.com/byui/resources/jack-johnson-in-the-morning.mp3" type="audio/mpeg">
+  <source src="http://goliveira.com/byui/resources/jack-johnson-in-the-morning.m4a" type="audio/m4a">
+  Oops, no suport for .mp3 or .m4a. Try another Browser :(
 </audio>
+<div>
+<button onclick="playAudio()">Play</button>
+<button onclick="pauseAudio()">Pause</button>
+</div>
 ````
-<a href="https://codepen.io/glaucioso/pen/oVodGP" target="_blank">Live Demo (at CodePen)</a>
+<a href="https://codepen.io/glaucioso/pen/bZzwVz" target="_blank">Live Demo (at CodePen)</a>
 
 
 #### Canvas
