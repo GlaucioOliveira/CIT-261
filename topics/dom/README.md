@@ -5,7 +5,7 @@
 
 DOM stands for **D**ocument **O**bject **M**odel. It's a Model created in a structure similar to a tree. The top of this tree is the **document** object and all elements on the page inherit from it. The picture below demonstrate an example:
 
-<img src="https://www.w3schools.com/js/pic_htmltree.gif" />
+<img src="http://goliveira.com/byui/resources/html-tree.gif" />
 
 The html source for this DOM tree structure is the following:
 
