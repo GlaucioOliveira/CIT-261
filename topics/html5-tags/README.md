@@ -1,7 +1,7 @@
 ## Code Topic Fluency 
 
 ### HTML5 Tags
-> Video, Audio, and Canvas. (INCOMPLETE...)
+> Video, Audio, and Canvas Tags.
 
 HTML5 introduced new tags that deals with multimedia (Video, Audio and Canvas). With the usage of these tags (`<video>`, `<audio>`, `<canvas>`) we can create HTML pages with rich features without needing any external component (like Flash).
 
@@ -44,17 +44,17 @@ We can access properties (like current position, buffered data) and fire events 
 
 #### Audio
 
-To add an Audio to a HTML page what we need is to add the `<audio>` tag. It's funcionality is similar to the video tag. We can access properties and events associated with an Audio (current position, play, pause, seek position, etc) on the structure of the DOM Element of the Audio Object. Below there is an example for this Tag:
+To add an Audio to a HTML page what we need is to add the `<audio>` tag. It's funcionality is similar to the video tag. We can access properties and events associated with the Audio (current position, play, pause, seek position, etc) on the structure of the DOM Element of the Object (by grabbing them with the `document.getElementById` function). Below there is an example for this Tag:
 
 ````html
 <script>
  var audioPlayer = document.getElementById('player');
 
- function pauseVideo(){
+ function pauseAudio(){
    audioPlayer.pause();
  }
 
- function playVideo(){
+ function playAudio(){
    audioPlayer.play();
  }
 </script>
