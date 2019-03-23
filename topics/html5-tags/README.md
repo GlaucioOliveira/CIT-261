@@ -98,5 +98,7 @@ In the exemple below there is the drawning of two crossed lines:
 ````
 <a href="https://codepen.io/glaucioso/pen/OqdRmd" target="_blank">Live Demo (at CodePen)</a>
 
-Once we get the drawning context (on the example the `drawingContext`), we are able to draw using the internal functions (functions like `moveTo`, `lineTo`, `stroke`, `'fillRect`). [A list of all the avaliable functions and attributes can be found here](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D).
+Once we get the drawning context (on the example the `drawingContext`), we are able to draw using the internal functions (functions like `moveTo`, `lineTo`, `stroke`, `'fillRect`). 
+
+*NOTE:* [A list of all the avaliable functions and attributes can be found here](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D).
 
