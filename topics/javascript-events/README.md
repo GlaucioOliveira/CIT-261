@@ -37,4 +37,4 @@ Another possibility to respond to an event is with the DOM. We can create an Eve
 ````
 <a href="https://codepen.io/glaucioso/pen/EMrgrb" target="_blank">Live Demo (At CodePen)</a>
 
-*NOTE:* A list with [all possible events for any HTML Element](https://developer.mozilla.org/en-US/docs/Web/Events)
+*NOTE:* A list with [all possible event types for any HTML Element](https://developer.mozilla.org/en-US/docs/Web/Events)
