@@ -24,22 +24,28 @@ The elements are added at the DOM even considering the moment when they were ins
 
 The advantage of this tree structure is that we can add elements inside at any elements (nodes) after or before them,  and even creating new nodes to **parent nodes** (*any node that has a child is a parent node*).
 
-In the example below, there is a demo of an TODO List App, where a list of items 'to be done' can be created. When the Button 'Add' is clicked, the function `addItem` is fired and them the `createElement` function is called to create a new `<LI>` element, them the property `innerText` of this element gets the value of the txtTodo input object. 
+In the example below, there is a demo of an TODO List App, where a list of items 'to be done' can be created. When the Button 'Add' is clicked, the function `addItem` is fired and them the `createElement` function is called to create a new `<LI>` element, them the property `innerText` of this element gets the value of the txtTodo input, also it assigns a function (`removeItem`) when the user click on this element.
 
 The last step is to append this new `<LI>` element on the `<UL>` list with the `appendChild` function.
 
 
 ````html
 <script>
-var myList = document.getElementById("myList");
-var txtTodo = document.getElementById("txtTodo");
+  var myList = document.getElementById("myList");
+  var txtTodo = document.getElementById("txtTodo");
 
-function addItem(){
-  var newLiChild = document.createElement("li"); 
-  newLiChild.innerText = txtTodo.value;
-  
-  myList.appendChild(newLiChild);
-  txtTodo.value = "";
+  function removeItem(itemToRemove){  
+    myList.removeChild(itemToRemove);
+  }
+
+  function addItem(){
+    var newLiChild = document.createElement("li"); 
+    newLiChild.innerText = txtTodo.value;
+    newLiChild.onclick = function(){ removeItem(this); };
+    myList.appendChild(newLiChild);
+
+    txtTodo.value = "";
+  }
 </script>  
 }
 ````
