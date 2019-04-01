@@ -52,3 +52,6 @@ With the `JSON.stringify` function, it's possible to cast JavaScript Objects int
 </script>
 ```
 <a href="https://codepen.io/glaucioso/pen/eXGBoY" target="_blank">Live Demo (at CodePen)</a>
+
+
+**NOTE:** On this <a href="https://codepen.io/glaucioso/pen/axzqjx">Live Demo (at CodePen)</a>, there is an example of a real world scenario dealing with Json and using Vue.js as a MVVM Framework.
