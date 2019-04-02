@@ -78,22 +78,23 @@ With Canvas we are able to draw graphics on a HTML page using JavaScript. We can
 
 The first step to use this tag is to create the `<canvas>` tag, specify it's size (`width`, `height` attributes), and them use JavaScript to draw.
 
-In the exemple below there is the drawning of two crossed lines:
+In the exemple below there is the drawning of a copyright information text into a picture:
 
 ````html
-<canvas id="canvas" width="200" height="100">
+<img id="img" src="http://goliveira.com/byui/resources/html-tree.gif">
+
+<canvas id="myCanvas" width="516" height="336">
+Sorry, no support for canvas :(
 </canvas>
 
 <script>
- var canvas = document.getElementById("canvas");
- var drawingContext = canvas.getContext("2d");
- drawingContext.moveTo(0, 0);
- drawingContext.lineTo(200, 100);
- drawingContext.stroke(); 
-
- drawingContext.moveTo(200,0);
- drawingContext.lineTo(0, 100);
- drawingContext.stroke();
+ var canvas = document.getElementById("myCanvas");
+ var ctx = canvas.getContext("2d");
+ var img = document.getElementById("img");
+ 
+ ctx.drawImage(img, 20, 10);
+ ctx.font = "30px Arial";
+ ctx.strokeText("(C) Copyright 2019 - W3Schools", 40, 310);
 </script>
 ````
 <a href="https://codepen.io/glaucioso/pen/OqdRmd" target="_blank">Live Demo (at CodePen)</a>
