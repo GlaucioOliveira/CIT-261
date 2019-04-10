@@ -11,30 +11,40 @@ The duration for this animation is defined on the **transition-duration** proper
 
 ````html
 <style>
-.load-img2 {
-  transform: rotate(100.0turn);
+ul{
+  background-color:greenyellow;
+  display:block;
+  overflow:auto;
+  padding-bottom:10px;
+  height:32px;
 }
 
-#load-img{
-  width:32px;
-  height:32px;
+li {
+  transition-property: border, padding;
+  float:left;
+  padding: 10px;
+  list-style-type:none;
+  color: red;
+  cursor:pointer;
   
-  transition-property: transform;
-  transition-duration: 100s;
-  transition-delay: 0.5s;
-  
-  display:block;
-  margin-bottom:5px;
+}
+
+li:hover {
+  transition-property: border, color;
+  border-bottom: 5px solid darkgreen;
+  transition-duration: 0.4s;
+  color:white;
 }
 </style>
 
-<div>
-  <h3>Fan</h3>
-   <img id="load-img" src="http://goliveira.com/byui/resources/ventilating-fan.png" />
+<h1>Demo Company </h1>
 
-<button onclick="TurnOn();">Turn ON</button>
-<button onclick="TurnOff();">Tur OFF</button>
-</div>
+<ul>
+  <li>Home</li>
+  <li>Our History</li>
+  <li>Clients</li>
+  <li>About Us</li>
+</ul>
 ````
 
-<a href="https://codepen.io/glaucioso/pen/Ladqyr" target="_blank">Live Demo (At CodePen)</a>
+<a href="https://codepen.io/glaucioso/pen/eoWOgM" target="_blank">Live Demo (At CodePen)</a>
